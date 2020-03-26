@@ -1,6 +1,6 @@
 #!/bin/bash
 #this script only works using one(1) file at a time
-#move this script where the log file you want to analyse resides
+#place your log files in the logdir directory
 echo Please enter a filename [ie:mylog.txt] to look for IP addresses:
 cd logdir
 read myfilename
